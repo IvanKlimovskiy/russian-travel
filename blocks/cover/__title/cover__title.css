@@ -1,5 +1,15 @@
 .cover__title {
+  margin: 0;
+  text-align: center;
   font-size: 72px;
   line-height: 76px;
   font-weight: 800;
+  z-index: 2;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title  {
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

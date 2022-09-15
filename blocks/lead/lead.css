@@ -1,5 +1,13 @@
 .lead {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+    width: 100%;
+  }
 }

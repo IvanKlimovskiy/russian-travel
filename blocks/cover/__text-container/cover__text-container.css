@@ -1,0 +1,12 @@
+.cover__text-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__text-container  {
+    gap: 16px;
+  }
+}
