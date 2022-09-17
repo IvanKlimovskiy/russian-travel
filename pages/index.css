@@ -35,6 +35,7 @@
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__navigation/footer__navigation.css);
 @import url(../blocks/footer/_position/footer_position.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
