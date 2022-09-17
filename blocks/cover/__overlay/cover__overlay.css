@@ -4,4 +4,11 @@
   position: absolute;
   background-color: rgba(42, 44, 47, .3);
   z-index: 1;
+  transition: 1s;
+}
+
+.cover__overlay:hover {
+  cursor: pointer;
+  transition: 1s;
+  background-color: rgba(42, 44, 47, .8);
 }
