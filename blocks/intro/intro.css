@@ -1,9 +1,8 @@
 .intro {
   box-sizing: border-box;
   padding: 92px 48px 0;
-  max-width: 984px;
+  max-width: calc(984px + 48px + 48px);
   width: 100%;
-  text-align: left;
   display: grid;
   grid-template-columns: 690px;
 }
@@ -11,7 +10,6 @@
 @media screen and (max-width: 1024px) {
   .intro {
     padding: 92px 48px 0;
-    width: 100%;
   }
 }
 
@@ -19,13 +17,12 @@
   .intro {
     display: block;
     padding: 88px 24px 0;
-    width: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
-    max-width: 288px;
-    width: 100%;
+    padding: 64px 16px 0;
+    max-width: calc(288px + 16px + 16px);
   }
 }

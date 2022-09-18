@@ -6,7 +6,6 @@
   display: grid;
   grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
   column-gap: 40px;
-  row-gap: 48px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -27,5 +26,12 @@
 @media screen and (max-width: 700px){
   .place {
     grid-template-columns: minmax(min-content, 1fr);
+  }
+}
+
+@media screen and (max-width: 320px){
+  .place {
+    padding: 0;
+    grid-template-columns: minmax(min-content, 320px);
   }
 }

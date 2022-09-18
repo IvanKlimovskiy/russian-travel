@@ -1,11 +1,17 @@
 .cover__subtitle {
+  vertical-align: top;
+  max-width: 360px;
   bottom: 195px;
-  margin: 0;
+  margin: 32px 0 0;
   text-align: center;
   font-size: 18px;
   line-height: 22px;
   font-weight: 400;
   z-index: 2;
+}
+
+.cover__subtitle:hover + .cover__overlay {
+  background-color: rgba(42, 44, 47, .8);
 }
 
 @media screen and (max-width: 400px) {
@@ -16,7 +22,8 @@
 
 @media screen and (max-width: 320px) {
   .cover__subtitle  {
-    margin: 0;
+    margin: 16px 0 0;
+    max-width: 288px;
     font-size: 14px;
     line-height: 16px;
   }

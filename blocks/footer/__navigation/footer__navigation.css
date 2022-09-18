@@ -1,20 +1,12 @@
 .footer__navigation {
   box-sizing: border-box;
-  padding: 92px 48px 24px;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-@media screen and (max-width: 730px) {
-  .footer__navigation  {
-    flex-direction: column;
-    gap: 48px;
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .footer__navigation {
-    padding: 88px 24px 24px;
+    padding: 64px 118px 48px 16px;
   }
 }

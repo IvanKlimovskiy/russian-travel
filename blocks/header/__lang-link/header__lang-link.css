@@ -7,11 +7,6 @@
   transition: 1s;
 }
 
-.header__lang-link:hover {
-  border-bottom: 1px solid white;
-  transition: 1s;
-}
-
 @media screen and (max-width: 425px) {
   .header__lang-link {
     font-size: 18px;
